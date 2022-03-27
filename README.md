@@ -10,3 +10,5 @@ For original docu, see master branch.
 - refactored: removed some global variables by moving them into the contextual functions
 - implemented: new serial option 'o' to toggle OLED display. That's because an OLED update requires about 17 ms and during this time no ADC sampling takes place
 - implemented: if current ranger is connected to USB, increased the auto delay by a factor of 10x
+
+*Side effect:* Reduced binary size by about 2%.
